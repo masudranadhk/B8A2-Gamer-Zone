@@ -1,5 +1,7 @@
 /* Responsive Start For Mobile */
 @media screen and (max-width:576px) {
+
+    /* Start NAV Respon */
     .nav-container {
         flex-direction: column;
         padding: 50px;
@@ -14,7 +16,7 @@
 
     .nav-item-container a {
 
-        margin: 2rem;
+        margin: 1rem;
         color: #3C354F;
         text-align: center;
         font-size: 1rem;
@@ -30,6 +32,7 @@
         padding: 0px 0px 0px 0px;
     }
 
+    /* Start Banner Respon */
     .banner-container {
         flex-direction: column-reverse;
 
@@ -63,6 +66,73 @@
         padding: 0px 0px 0px 60px;
     }
 
+    /* Start Gamer Respon */
+    .gamer-container {
+        flex-direction: column;
+
+    }
+
+    .gamer-text {
+        /* width: 100%; */
+        width: 100%;
+        text-align: center;
+        padding: 50px 0 0 0;
+        margin-bottom: 10px;
+
+    }
+    .gamer-title {
+        text-align: center;
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+    
+    .gamer-para {
+        color: #534C64;
+        text-align:center;
+        /* text-align: justify; */
+        font-size: .9rem;
+        font-weight: 400;
+        margin-bottom: 10px;
+        /* 166.667% */
+    }
+
+    .know-button {
+        position: relative;
+        right: 10px;
+        
+    }
+
+    .purpose {
+        
+        text-align: center;
+       ;
+        /* 187.5% */
+    }
+    
+
+
+    .gamer-image {
+        width: 100%;
+
+    }
+    .gamer-image img {
+        width: 450px;
+        height: 350px;
+        flex-shrink: 0;
+    }
+    .gamer-title {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+
+
 
 }
 
@@ -95,6 +165,37 @@
 
         margin-right: 1rem;
 
+    }
+
+    .banner-container {
+        margin: 50px auto 0;
+        max-width: 1920px;
+        min-height: 50px;
+        display: flex;
+
+    }
+
+    .banner-text {
+        width: 50%;
+        text-align: center;
+        padding: 150px 0 0 0
+    }
+
+    .banner-image {
+        width: 50%;
+
+    }
+
+    .banner-image img {
+        width: 170%;
+        /* height: 25%; */
+        /* margin-bottom: 5px; */
+
+    }
+
+    .banner-item-list {
+
+        padding: 0px 0px 0px 60px;
     }
 
 

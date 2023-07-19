@@ -118,7 +118,7 @@
     /* border: 2px solid orange; */
     width: 50%;
     text-align: center;
-    padding: 150px 0 0 0 ;
+    padding: 150px 0 0 0;
     background-image: url(/images/Group_14.png), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
     background-blend-mode: overlay;
 }
@@ -144,6 +144,7 @@
     border: none;
     text-align: start;
 }
+
 .gorogue-button {
     color: #FFF;
     font-size: 20px;
@@ -174,6 +175,7 @@
     height: 24px;
     flex-shrink: 0;
 }
+
 .span-goat {
     text-align: center;
     font-size: 95px;
@@ -184,10 +186,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .banner-item-list li {
     list-style: none;
     margin-bottom: 2rem;
 }
+
 .banner-item-list {
     color: #534C64;
     text-align: left;
@@ -195,6 +199,7 @@
     font-weight: 500;
     padding: 0px 0px 0px 300px;
 }
+
 .banner-title {
     color: #0B0223;
     text-align: center;
@@ -205,3 +210,86 @@
 
 
 /* Banner Style End */
+
+
+/* Gamer Style start */
+.gamer-container {
+    /* border: 1px solid tomato; */
+    margin: 50px auto 0;
+    max-width: 1920px;
+    min-height: 50px;
+    display: flex;
+    text-align: right;
+
+}
+
+.gamer-text {
+    width: 50%;
+    text-align: center;
+    padding: 150px 0 0 0;
+    margin-bottom: 10px;
+
+}
+
+.gamer-image {
+    width: 50%;
+    text-align: center;
+}
+
+.gamer-image img {
+    width: 868px;
+    height: 489px;
+    flex-shrink: 0;
+}
+
+.gamer-title {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.gamer-para {
+
+    color: #534C64;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    /* 166.667% */
+}
+
+.know-button {
+    color: #FFF;
+    font-size: 20px;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    position: relative;
+    right: -370px;
+    margin-bottom: 10px;
+}
+
+.purpose {
+    color: #534C64;
+    text-align: right;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 45px;
+    /* 187.5% */
+}
+
+.span-purpose {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* Gamer End start */
