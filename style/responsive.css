@@ -83,6 +83,62 @@
         font-size: 1rem;
     }
 
+    /* start Funny Video */
+    .fv-header-title {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .fv-header-ptag {
+        font-size: 12px;
+    }
+
+    .fv-featured {
+        flex-direction: column;
+        padding: 0 50px 0 10px;
+    }
+
+    .pi-ptag-title-header {
+        font-size: 30px;
+        /* font-weight: 700; */
+    }
+
+    .p-desc {
+        /* color: #534C64; */
+        font-size: 12px;
+        /* font-weight: 400; */
+    }
+
+    .pi-title,
+    .pi-img {
+        width: 50%;
+        text-align: center;
+        margin: 0 40px;
+    }
+
+    /* End Funny Video */
+
+    /* PI Start */
+    .pi-featured {
+        flex-direction: column;
+        padding: 0 0 0 40px;
+    }
+
+    /* PI END */
+
+    /* Carrer Start */
+    .carrers-div {
+        flex-direction: column;
+    }
+
+    .careers-div1,
+    .carrers-div,
+    .careers-container {
+        padding: 0px;
+    }
+
+    /* Carrer End */
+
     /* Start Gamer Respon */
     .gamer-container {
         flex-direction: column;
@@ -151,6 +207,62 @@
         margin-bottom: 20px;
     }
 
+    .games-container {
+
+        display: grid;
+        /* display: grid; */
+        grid-template-columns: repeat(3, 1fr);
+        align-items: lef;
+        text-align: left;
+        justify-content: space-around;
+        gap: 0px;
+        margin-top: 0px;
+    }
+
+    .games-img img,
+    .games-img span {
+        width: 30px;
+        font-size: 8px;
+    }
+    img.side-img-2 {
+        position: absolute;
+        left: -50px;
+        height: 124px;
+        width: 130px;
+        bottom: -54px;
+    }
+
+    .footer-logo {
+
+        /* display: flex; */
+        align-items: center;
+        padding: 20px 0 0 100px;
+        /* justify-content: space-between; */
+    }
+
+    .footer-desc {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        margin-top: 30px;
+        padding: 0 0px 0 0px;
+        gap: 20px;
+        /* justify-content: space-between; */
+        color: #FFF;
+        /* text-align: center; */
+        font-size: 18px;
+        /* font-style: normal; */
+        font-weight: 600;
+    }
+    .footer-descs {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 0 0 0 0;
+        gap: 20px;
+        justify-content: space-between;
+        
+    }
+
 }
 
 /* End for Mobile */
@@ -162,14 +274,6 @@
 
 
 @media screen and (min-width:576px) and (max-width:960px) {
-
-    .gamer-container,
-    .fv-container,
-    .pi-container,
-    .pg-container,
-    .games-container {
-        padding: 0 32px;
-    }
 
     .nav-container {
         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -224,5 +328,67 @@
         font-size: 1em;
     }
 
+    .fv-featured {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .gamer-text {
+        padding: 0 0 0 0;
+
+    }
+
+    img.side-img-2 {
+
+        left: -10px;
+
+    }
+
+    .games-container {
+
+        display: grid;
+        /* display: grid; */
+        grid-template-columns: repeat(4, 1fr);
+        align-items: lef;
+        text-align: left;
+        justify-content: space-around;
+        gap: 0px;
+        margin-top: 0px;
+    }
+    .pg-button {
+        padding: 15px 5px;
+        
+    }
+    .footer-logo {
+
+        /* display: flex; */
+        align-items: center;
+        padding: 20px 200px 0 250px;
+        /* justify-content: space-between; */
+    }
+
+    .footer-desc {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        align-items: center;
+        margin-top: 30px;
+        padding: 0 0px 0 0px;
+        gap: 20px;
+        /* justify-content: space-between; */
+        color: #FFF;
+        /* text-align: center; */
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .footer-descs {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 0 0 0 0;
+        gap: 20px;
+        justify-content: space-between;
+        
+    }
+    
 
 }
