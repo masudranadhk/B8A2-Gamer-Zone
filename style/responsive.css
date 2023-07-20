@@ -17,7 +17,7 @@
     /* Start NAV Respon */
     .nav-container {
         flex-direction: column;
-        padding: 50px;
+        padding: 10px;
         text-align: center;
         max-width: 576px;
         height: 260px;
@@ -173,6 +173,9 @@
 
     .nav-item-container a {
         margin-right: 1rem;
+    }
+    .follow-us-on {
+        padding: 5px;
     }
 
     .banner-container {
